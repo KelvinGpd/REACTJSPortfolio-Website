@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ParticleBg from './animation_components/ParticleBg';
+import Typewriter from './animation_components/Typewriter';
+import InitialTransition from './animation_components/InitialTransition';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
+      <InitialTransition />  
+      <ParticleBg />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <body className="App-body"></body>
     </div>
   );
 }
