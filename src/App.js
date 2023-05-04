@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
-import ParticleBg from './animation_components/ParticleBg';
-import Typewriter from './animation_components/Typewriter';
-import InitialTransition from './animation_components/InitialTransition';
+import WebsiteContent from './website_Layout/WebsiteContent';
 
 
 function App() {
   return (
-    <div className="App" >
-      <InitialTransition />  
-      <ParticleBg />
+    <div className="App">
+      <WebsiteContent/>
       <header className="App-header">
       </header>
-      <body className="App-body"></body>
+      <body className="App-body">
+      </body>
     </div>
   );
 }

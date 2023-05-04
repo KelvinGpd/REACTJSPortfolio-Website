@@ -1,30 +1,29 @@
 import { motion } from "framer-motion";
-import Typewriter from "./Typewriter";
 
 const blackBox = {
   initial: {
-    height: "100vh",    
+    height: "100vh",
     bottom: 0,
   },
   animate: {
-    height:0,
+    height: 0,
     transition: {
-      when:"afterChildren",
+      when: "afterChildren",
       duration: 1.5,
       ease: [0.87, 0, 0.13, 1],
     },
-    delay:5,
+    delay: 5,
   },
 };
 
-const InitialTransition = () => {
+const InitialTransition = ({ triggerAnimation = false }) => {
   return (
     <div className="some">
-      <motion.div 
+      <motion.div
         className="blackBox"
         initial="initial"
-        animate="animate"
-          variants={blackBox}
+        animate={triggerAnimation ? "animate" : "initial"}
+        variants={blackBox}
       />
     </div>
   );
