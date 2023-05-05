@@ -5,8 +5,8 @@ const Sidebar = () =>{
     return(
         <div className="sidebar">
             <div className="sidebarContent">
-                <Rectangle width="15%" height="100%" color="#252526" />
-                <Rectangle width="0.3%" height="100%" color="#F15A22" />    
+                <Rectangle width="15%" height="100%" color="#D3BBAF" />
+                <Rectangle width="0.3%" height="100%" color="white" />    
             </div>
         </div>
     );

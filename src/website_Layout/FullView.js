@@ -1,4 +1,5 @@
 import React from "react";
+import BurgerMenu from "../animation_components/BurgerMenu";
 import Rectangle from "../animation_components/Rectangle";
 import WebsiteContent from "./WebsiteContent";
 
@@ -11,7 +12,8 @@ const FullView = () => {
                 <WebsiteContent/>
             </div>
             <div className="background">
-                <Rectangle width="100%" height="100%" color="#F15A22"/> 
+                <BurgerMenu/>
+                <Rectangle width="100%" height="100%" color="white"/> 
             </div>
         </div>
     );
