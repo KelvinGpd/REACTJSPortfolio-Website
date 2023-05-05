@@ -10,11 +10,11 @@ function Typewriter() {
           fontSize: '1.5em',
         }}
         startDelay={1000}
-        cursorColor="#FFF"
+        cursorColor="black"
         multiText={[
-          'Hello World!',
-          'My name is...',
-          'Kelvin'
+          'Im Kelvin Chen,',
+          'a Software developper',
+          'Welcome to my Website!'
         ]}
         multiTextDelay={1200}
         typeSpeed={100}

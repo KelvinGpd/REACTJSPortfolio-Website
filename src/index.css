@@ -27,6 +27,7 @@ code {
 
 .sidebar {
   display: flex;
+  position: absolute;
   margin: 0; 
   width: 100%;
   height: 100vh;
@@ -34,13 +35,47 @@ code {
 
 .sidebarContent {
   display: flex;
+  margin: auto;
   width: 100%;
   height: 100vh;
 }
 
-.typewriterContainer {
-  position: absolute;
+/* parent container */
+.websiteDisplay {
+  display: block;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
+
+/* C1 */
+.react-typewriter-text-wrap{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-typewriter-text {
+  text-align: center;
+}
+
+/* C2 */
+.initialDisplay{
+  position: relative;
+  z-index: 0;
+}
+
 
 
 
