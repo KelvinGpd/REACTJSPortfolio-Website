@@ -77,6 +77,31 @@ code {
 }
 
 
+.FullView {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/*Size down*/
+.WebsiteContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.9);
+  z-index: 2;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
 
 
 

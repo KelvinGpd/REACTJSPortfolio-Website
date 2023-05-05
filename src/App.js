@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import WebsiteContent from './website_Layout/WebsiteContent';
-import Typewriter from './animation_components/Typewriter';
+import FullView from './website_Layout/FullView';
 
 function App() {
   return (
     <div className="App">
-        <WebsiteContent/>
+        <FullView/>
       <header className="App-header">
       </header>
       <body className="App-body">

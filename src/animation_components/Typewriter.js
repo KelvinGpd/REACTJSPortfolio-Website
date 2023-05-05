@@ -1,6 +1,7 @@
 import TypeWriterEffect from 'react-typewriter-effect';
 
 function Typewriter() {
+
     return ( 
     <TypeWriterEffect
         textStyle={{
@@ -9,15 +10,14 @@ function Typewriter() {
           fontWeight: 300,
           fontSize: '1.5em',
         }}
-        startDelay={1000}
+        startDelay={100}
         cursorColor="black"
         multiText={[
-          'Im Kelvin Chen,',
-          'a Software developper',
+          'Im Kelvin Chen, a Software developper.',
           'Welcome to my Website!'
         ]}
         multiTextDelay={1200}
-        typeSpeed={100}
+        typeSpeed={60}
       /> 
       );
 }
