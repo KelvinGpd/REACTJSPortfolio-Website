@@ -18,7 +18,7 @@ a, a:visited {
   color: black;
 }
 
-.rectangle {
+.rectangle, .roundedRectangle {
   display: inline-block;
   margin: 0;
 }
@@ -38,11 +38,24 @@ a, a:visited {
   height: 100vh;
 }
 
-.sidebarContent {
-  display: flex;
-  margin: auto;
+.optionsContainer {
+  position: absolute;
+  justify-content: left;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  z-index: 0;
+}
+
+.sideBarOptions {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.toggleOptions {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
 /* parent container */
@@ -77,6 +90,7 @@ a, a:visited {
 
 /* C2 */
 .initialDisplay{
+  overflow: hidden;
   position: relative;
   z-index: 0;
 }
@@ -132,6 +146,25 @@ a, a:visited {
   flex-direction: column;
   justify-content: center;
   position: absolute;
+}
+
+/*Sidebar button*/
+.buttonContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.buttonText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+.buttonRect {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 

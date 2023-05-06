@@ -1,6 +1,6 @@
 import React from "react";
 import BurgerMenu from "../animation_components/BurgerMenu";
-import Rectangle from "../animation_components/Rectangle";
+import Rectangle from "../animation_components/basic shapes/Rectangle";
 import WebsiteContent from "./WebsiteContent";
 
 
