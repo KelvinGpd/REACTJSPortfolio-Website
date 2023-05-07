@@ -4,7 +4,12 @@ const RoundedRectangle = ({ width, height, borderRadius, color1, color2 }) => {
     const [backgroundColor, setBackgroundColor] = useState(color1);
 
     const handleClick = () => {
+        if (backgroundColor == color1) {
         setBackgroundColor(color2);
+        }
+        else{
+            setBackgroundColor(color1);
+        }
     };
 
     const style = {

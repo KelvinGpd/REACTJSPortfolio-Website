@@ -34,7 +34,7 @@ a, a:visited {
   display: flex;
   position: absolute;
   margin: 0; 
-  width: 100%;
+  width: 15.3%;
   height: 100vh;
 }
 
@@ -56,6 +56,10 @@ a, a:visited {
   position: absolute;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 /* parent container */
@@ -150,23 +154,40 @@ a, a:visited {
 
 /*Sidebar button*/
 .buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 7%;
+  padding-top: 5%;
+  pointer-events: none;
 }
+
+.buttonContainer > * {
+  pointer-events: auto;
+}
+
 .buttonText {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   margin: 0;
+  pointer-events: none;
 }
+
 .buttonRect {
   position: absolute;
   left: 0;
   top: 0;
 }
 
+.buttonIcon {
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  padding-left: 10%;
+  padding-top: 3%;
+
+}
 
 
 
