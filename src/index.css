@@ -26,14 +26,19 @@ a, a:visited {
 .initial {
   display: flex;
   width: 100%;
-  margin: 0;
+  height: 100vh;
+}
+
+.contentBody {
+  display: flex;
+  margin-left: auto;
+  width: 84.7%;
   height: 100vh;
 }
 
 .sidebar {
   display: flex;
   position: absolute;
-  margin: 0; 
   width: 15.3%;
   height: 100vh;
 }
@@ -94,6 +99,7 @@ a, a:visited {
 
 /* C2 */
 .initialDisplay{
+  display: flex;
   overflow: hidden;
   position: relative;
   z-index: 0;

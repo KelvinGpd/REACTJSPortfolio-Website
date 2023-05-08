@@ -7,7 +7,8 @@ import Typewriter from "../animation_components/Typewriter";
 const WebsiteContent = () => {
 
   const [isClicked, setIsClicked] = useState(false);
-
+  const [activeButton, setActiveButton] = useState(null);
+  
   const handleOnClick = () => {
     setIsClicked(true);
   };

@@ -1,25 +1,15 @@
 import React, { useState } from 'react';
 
-const RoundedRectangle = ({ width, height, borderRadius, color1, color2 }) => {
-    const [backgroundColor, setBackgroundColor] = useState(color1);
-
-    const handleClick = () => {
-        if (backgroundColor == color1) {
-        setBackgroundColor(color2);
-        }
-        else{
-            setBackgroundColor(color1);
-        }
-    };
+const RoundedRectangle = ({ width, height, borderRadius, color}) => {
 
     const style = {
         width: width,
         height: height,
         borderRadius: borderRadius,
-        backgroundColor: backgroundColor,
+        backgroundColor: color,
     };
 
-    return <div style={style} onClick={handleClick}></div>;
+    return <div style={style}></div>;
 };
 
 export default RoundedRectangle;
