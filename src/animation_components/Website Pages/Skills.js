@@ -1,10 +1,8 @@
 const Skills = () => { 
 
     return(
-        <div className = "AboutMe">
-
-
-
+        <div className = "Skills">
+            <p>Skills</p>
         </div>
     );
 };

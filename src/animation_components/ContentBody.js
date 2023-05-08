@@ -6,29 +6,24 @@ import AboutMe from "./Website Pages/AboutMe";
 const ContentBody = ({activeButton}) => {
 
   const setActivePage = () => {
+    console.log(activeButton)
     switch(activeButton) {
-        case "projects":
+        case 'Projects':
             return <Projects/>
-
-        case "skills":
+        case 'Skills':
             return <Skills/>
-
-        case "aboutMe":
+        case 'About me':
             return <AboutMe/>
         default:
             return null;
     }
 }
-
-
     return (
       <div className="contentBody">
         <div className="initial"> 
-
           <div className="currentPageContent">
               {setActivePage()}
           </div>
-
           <Rectangle width="100%" height="100%" color="#fae7e0" />
         </div>
       </div>

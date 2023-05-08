@@ -3,7 +3,7 @@ import Rectangle from "./basic shapes/Rectangle";
 import SidebarButton from "./SidebarButton";
 import { useState } from "react";
 
-const Sidebar = () =>{
+const Sidebar = ({sendActiveToParent}) =>{
     
     const [buttons, setButtons] = useState ([
         { text: "Projects", svgIcon: "2", color1: "#D3BBAF", color2: "#fae7e0", switchColor: "white", currentActive: false },
@@ -21,6 +21,7 @@ const Sidebar = () =>{
             }
         });
         setButtons(updatedButtons);
+        sendActiveToParent(key);
     }
 
     return(

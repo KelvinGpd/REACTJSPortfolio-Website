@@ -23,19 +23,6 @@ a, a:visited {
   margin: 0;
 }
 
-.initial {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-}
-
-.contentBody {
-  display: flex;
-  margin-left: auto;
-  width: 84.7%;
-  height: 100vh;
-}
-
 .sidebar {
   display: flex;
   position: absolute;
@@ -195,6 +182,47 @@ a, a:visited {
 
 }
 
+/*css for ContentBody*/
 
+.contentBody {
+  display: flex;
+  margin-left: auto;
+  width: 84.7%;
+  height: 100vh;
+}
 
+.currentPageContent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
+.initial {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/* css for conditionally mounted contentBodies */
+
+.Skills {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.Projects {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.AboutMe {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

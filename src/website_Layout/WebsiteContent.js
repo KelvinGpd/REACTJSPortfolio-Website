@@ -7,9 +7,20 @@ import Typewriter from "../animation_components/Typewriter";
 const WebsiteContent = () => {
 
   const [isClicked, setIsClicked] = useState(false);
-  const [activeButton, setActiveButton] = useState(null);
-  
-  const handleOnClick = () => {
+  const [activeButton, setActiveButton] = useState("");
+
+  const handleSetActiveButton = (key) => {
+    setActiveButton(key);
+  }
+
+  const renderTypewriter = () => {
+    if (activeButton === '') {
+      return <Typewriter/>
+    }
+  }
+
+  const handleOnClick = (event) => {
+    event.stopPropagation();
     setIsClicked(true);
   };
 
@@ -23,7 +34,6 @@ const WebsiteContent = () => {
             isClicked?{
               scale: 1,
               transitionEnd: {
-              display: "none",
               },
               transition: {
                 duration: 3,
@@ -32,15 +42,13 @@ const WebsiteContent = () => {
             : {}
           }
           transition = {{duration:3}}
-          className = "initialAnimation"
+          className = "websiteDisplay"
           >
-          <div className="websiteDisplay">
-              <Typewriter/>
-              <div className="initialDisplay">
-                <Sidebar/>
-                <ContentBody/>
-              </div>
-          </div>
+            {renderTypewriter()}
+            <div className="initialDisplay">
+              <Sidebar sendActiveToParent={handleSetActiveButton}/>
+              <ContentBody activeButton={activeButton}/>
+            </div>
         </motion.div>
       </div>
     );
