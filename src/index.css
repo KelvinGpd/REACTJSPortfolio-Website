@@ -221,8 +221,46 @@ a, a:visited {
 }
 
 .AboutMe {
+  box-sizing: border-box;
+  padding: 5%;
   display: flex;
   position: absolute;
+  align-items: center;
+  justify-content: flex-start;
   height: 100%;
   width: 100%;
 }
+
+.AboutMe h2, h3, h1, p{
+  text-align: left;
+  text-justify: inter-word;
+  text-justify: auto;
+}
+
+.AboutMe h3 {
+  margin-bottom: 5%;
+}
+
+.AboutMeText {
+  text-justify: auto;
+}
+
+.profilePicture {
+  width: 40%;
+  display: flex;
+  overflow: hidden;
+  border-style: solid;
+  border-color: white;
+  border-width: 15%;
+  border-width: 10%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profilePicture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
