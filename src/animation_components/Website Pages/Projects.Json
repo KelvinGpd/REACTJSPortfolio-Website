@@ -1,0 +1,39 @@
+[
+    {
+      "color1": "#D3BBAF",
+      "color2": "white",
+      "title": "FaitFrette.tech",
+      "description": "FaitFrette.tech is a website constructed for Polyhacks 2022. It was done using Open Meteo Api, pulling in real time data of current and future weather conditions all over Canada and using them to update a custom interactive map. Users would be able to select their current location and find areas where the temperature is comparable. Built using React and jsx",
+      "image": "./assets/FaitFrette.png",
+      "link" : "https://faitfrette.tech/",
+      "parity": "1"
+    },
+    {
+      "color1": "#D3BBAF",
+      "color2": "white",
+      "title": "Auto Roto",
+      "description": "Auto Roto makes rotoscopy easy by making use of canny edge detection algorithms from Open CV and scikit-image. Made for my personal BI Project, auto roto is an automatic segmentation tool that would enable its user to import any image and make a few selections in order to segment their desired object from the background, making the painful process of manually masking images lighter. Built using python.",
+      "image": "./assets/AutoRoto.png",
+      "link" : "https://www.youtube.com/watch?v=dcC4Hc6ATsE",
+      "parity": "0"
+    },
+    {
+      "color1": "#D3BBAF",
+      "color2": "white",
+      "title": "Class register System",
+      "description": "This project is a Mock-up of an University's class registering system, simulating the user experience and the server response of any would be student looking to register to classes. Built using java, this program models the backend multithread structure of a server, letting multiple clients connect and send requests, either fetch or write.",
+      "image": "./assets/Inscription.png",
+      "link" : "https://youtu.be/i5wSvuJooSw",
+      "parity": "1"
+    },
+    {
+      "color1": "#D3BBAF",
+      "color2": "white",
+      "title": "VR bow Simulator",
+      "description": "VR bow simulator is a virtual reality experience simulating the firing of a bow and arrow. There is built-in environment, props, and many more assets, all custom-made with 3d software such as Blender. Apart from firing the bow, you can also move around using the handheld controllers and explore your surroundings. Built with the use of the Unity game engine and its vr package, coded in c#.",
+      "image": "./assets/arrow.png",
+      "link" : "https://www.youtube.com/watch?v=QqziExvHmoQ",
+      "parity": "0"
+    }
+  ]
+  
