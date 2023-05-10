@@ -1,11 +1,28 @@
 [
+
     {
-        "name": "REACT",
+        "name": "JAVA",
         "image": "./assets/reactIco.png",
-        "description": "React",
+        "description": "Java",
         "color": "white",
         "shadowCol": "#D3BBAF",
-        "category": "Development"
+        "category": "Backend"
+    },
+    {
+        "name": "PYTHON",
+        "image": "./assets/reactIco.png",
+        "description": "Python",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Backend"
+    },
+    {
+        "name": "SQL",
+        "image": "./assets/reactIco.png",
+        "description": "sql",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Backend"
     },
 
     {
@@ -14,21 +31,69 @@
         "description": "React",
         "color": "white",
         "shadowCol": "#D3BBAF",
-        "category": "Development"
+        "category": "Frontend"
     },
-    
+    {
+        "name": "JAVASCRIPT",
+        "image": "./assets/reactIco.png",
+        "description": "Js",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+    {
+        "name": "HTML",
+        "image": "./assets/reactIco.png",
+        "description": "Js",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+    {
+        "name": "CSS",
+        "image": "./assets/reactIco.png",
+        "description": "Css",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+
     {
         "name": "PHOTOSHOP",
         "image": "white",
         "description": "Photoshop",
         "color": "#fae7e0",
         "shadowCol": "#D3BBAF",
-        "category": "Design"
+        "category": "Other"
     },
     {
-        "name": "ENGLISH",
+        "name": "BLENDER",
         "image": "white",
-        "description": "English",
+        "description": "Blender",
+        "color": "#fae7e0",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "AE",
+        "image": "white",
+        "description": "After Effects",
+        "color": "#fae7e0",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "AWS",
+        "image": "white",
+        "description": "aws management & deployment",
+        "color": "#fae7e0",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "Assembly",
+        "image": "white",
+        "description": "Vhdl & hardware",
         "color": "#fae7e0",
         "shadowCol": "#D3BBAF",
         "category": "Other"

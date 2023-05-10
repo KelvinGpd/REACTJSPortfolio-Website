@@ -4,8 +4,8 @@ import SkillBox from "./SkillBox";
 const Skills = () => { 
 
     const [categories, setCategory] = useState ([
-        {category: "Development"},
-        {category: "Design"},
+        {category: "Backend"},
+        {category: "Frontend"},
         {category: "Other"}
     ])
 

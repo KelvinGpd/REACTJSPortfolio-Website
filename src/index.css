@@ -420,3 +420,23 @@ a, a:visited {
   width:25%;
   height:100%;
 }
+
+/*css for initial typewriter*/
+
+.TypewriterContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.typeText {
+  position: absolute;
+  text-align: center;
+  z-index: 5;
+  margin-top: 5%;
+  font-size: 50%;
+}

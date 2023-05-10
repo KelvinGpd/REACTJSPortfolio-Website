@@ -21,7 +21,7 @@ function BurgerMenu() {
         </motion.div>
       {isMenuOpen && (
         <div className='burgerItems'>
-            <motion.a href='https://github.com/KelvinGpd' target="_blank"
+            <motion.a href='mailto:kelvgpd@gmail.com' 
             whileHover={{ scale: 1.2 }}>
                 <EmailIcon/> 
             </motion.a>
