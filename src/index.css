@@ -206,15 +206,6 @@ a, a:visited {
 
 /* css for conditionally mounted contentBodies */
 
-.Skills {
-  box-sizing: border-box;
-  padding: 5%;
-  display: flex;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
 
 /*Project Page*/
 .Projects {
@@ -316,10 +307,9 @@ a, a:visited {
   overflow: hidden;
   border-style: solid;
   border-color: white;
-  border-width: 15%;
-  border-width: 10%;
+  border-width: 4px;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 5%;
 }
 
 .profilePicture img {
@@ -329,3 +319,104 @@ a, a:visited {
 }
 
 
+/*css for Skills*/
+
+.Skills {
+  box-sizing: border-box;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.skillCategory {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 33%;
+  align-items: center;
+}
+
+.categorySkills {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.SkillBox {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:100%;
+  height:100%;
+  z-index: 2;
+}
+
+.categoryName {
+  text-align: center;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  margin-right: 5%;
+}
+
+.skillImg {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.singleSkillContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.singleSkillBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.boxShadow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.boxShadow > div {
+  bottom: 0;
+  right: 0;
+  transform: translate(4%, 4%);
+}
+
+.boxAndShadow {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:25%;
+  height:100%;
+}

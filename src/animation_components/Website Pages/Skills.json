@@ -1,0 +1,37 @@
+[
+    {
+        "name": "REACT",
+        "image": "./assets/reactIco.png",
+        "description": "React",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Development"
+    },
+
+    {
+        "name": "REACT",
+        "image": "./assets/reactIco.png",
+        "description": "React",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Development"
+    },
+    
+    {
+        "name": "PHOTOSHOP",
+        "image": "white",
+        "description": "Photoshop",
+        "color": "#fae7e0",
+        "shadowCol": "#D3BBAF",
+        "category": "Design"
+    },
+    {
+        "name": "ENGLISH",
+        "image": "white",
+        "description": "English",
+        "color": "#fae7e0",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    }
+  ]
+  
