@@ -2,7 +2,7 @@
 
     {
         "name": "JAVA",
-        "image": "./assets/reactIco.png",
+        "image": "./assets/javaIco.png",
         "description": "Java",
         "color": "white",
         "shadowCol": "#D3BBAF",
@@ -10,7 +10,7 @@
     },
     {
         "name": "PYTHON",
-        "image": "./assets/reactIco.png",
+        "image": "./assets/pythonIco.png",
         "description": "Python",
         "color": "white",
         "shadowCol": "#D3BBAF",
@@ -18,7 +18,7 @@
     },
     {
         "name": "SQL",
-        "image": "./assets/reactIco.png",
+        "image": "./assets/sqlIco.png",
         "description": "sql",
         "color": "white",
         "shadowCol": "#D3BBAF",
@@ -35,7 +35,7 @@
     },
     {
         "name": "JAVASCRIPT",
-        "image": "./assets/reactIco.png",
+        "image": "./assets/jsIco.png",
         "description": "Js",
         "color": "white",
         "shadowCol": "#D3BBAF",
@@ -43,7 +43,7 @@
     },
     {
         "name": "HTML",
-        "image": "./assets/reactIco.png",
+        "image": "./assets/htmlIco.png",
         "description": "Js",
         "color": "white",
         "shadowCol": "#D3BBAF",
@@ -51,7 +51,7 @@
     },
     {
         "name": "CSS",
-        "image": "./assets/reactIco.png",
+        "image": "./assets/cssIco.png",
         "description": "Css",
         "color": "white",
         "shadowCol": "#D3BBAF",
