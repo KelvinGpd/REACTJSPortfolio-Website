@@ -227,6 +227,7 @@ a, a:visited {
 .backgroundContainer {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 /*Display for project Image*/
@@ -234,7 +235,7 @@ a, a:visited {
   overflow: hidden;
   display: flex;
   width: 100%;
-  height: 30%;
+  aspect-ratio: 4/3;
   position: relative;
   margin-bottom: 4%;
   justify-content: center;
@@ -247,6 +248,7 @@ a, a:visited {
   position: absolute;
   box-sizing: border-box;
   padding: 5%;
+  object-fit: contain;
 }
 
 .smallContainer img {
@@ -257,7 +259,7 @@ a, a:visited {
 
 .bigContainer {
   width: 100%;
-  height: 70%;
+  height: 100%;
   overflow: hidden;
   display: flex;
   position: relative;
@@ -272,6 +274,16 @@ a, a:visited {
   position: absolute;
   box-sizing: border-box;
   padding: 5%;
+  object-fit: contain;
+}
+
+.projectSkills {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: baseline;
+  align-content: baseline;
+  justify-content: baseline;
 }
 
 

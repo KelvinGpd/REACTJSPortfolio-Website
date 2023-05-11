@@ -3,7 +3,7 @@
     {
         "name": "JAVA",
         "image": "./assets/javaIco.png",
-        "description": "Java",
+        "description": "O-O-P",
         "color": "white",
         "shadowCol": "#D3BBAF",
         "category": "Backend"
@@ -19,7 +19,7 @@
     {
         "name": "SQL",
         "image": "./assets/sqlIco.png",
-        "description": "sql",
+        "description": "sql database handling",
         "color": "white",
         "shadowCol": "#D3BBAF",
         "category": "Backend"
@@ -59,42 +59,42 @@
     },
 
     {
-        "name": "PHOTOSHOP",
-        "image": "white",
-        "description": "Photoshop",
-        "color": "#fae7e0",
+        "name": "GIT/GITHUB",
+        "image": "./assets/gitIco.png",
+        "description": "Full github workflow",
+        "color": "white",
         "shadowCol": "#D3BBAF",
         "category": "Other"
     },
     {
-        "name": "BLENDER",
-        "image": "white",
-        "description": "Blender",
-        "color": "#fae7e0",
-        "shadowCol": "#D3BBAF",
-        "category": "Other"
-    },
-    {
-        "name": "AE",
-        "image": "white",
-        "description": "After Effects",
-        "color": "#fae7e0",
+        "name": "BASH SCRIPTING",
+        "image": "./assets/bashIco.png",
+        "description": "bash scripts",
+        "color": "white",
         "shadowCol": "#D3BBAF",
         "category": "Other"
     },
     {
         "name": "AWS",
-        "image": "white",
+        "image": "./assets/awsIco.png",
         "description": "aws management & deployment",
-        "color": "#fae7e0",
+        "color": "white",
         "shadowCol": "#D3BBAF",
         "category": "Other"
     },
     {
         "name": "Assembly",
-        "image": "white",
+        "image": "./assets/assemblyIco.png",
         "description": "Vhdl & hardware",
-        "color": "#fae7e0",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "DESIGN",
+        "image": "./assets/designIco.png",
+        "description": "ps/illustrator/3d & graphics",
+        "color": "white",
         "shadowCol": "#D3BBAF",
         "category": "Other"
     }

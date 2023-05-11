@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 
 
-const ProjectHolder = ({color1, color2, title, description, image, link}) => {
+const ProjectHolder = ({color1, color2, title, description, image, link, skills}) => {
 
     return(
         <div className="backgroundContainer">
@@ -18,6 +18,13 @@ const ProjectHolder = ({color1, color2, title, description, image, link}) => {
             <div className="bigContainer">
                 <div className="bigContainerContent">
                     <h2>{title}</h2>
+                    <div className="projectSkills">
+                        {skills.map((skill)=> (
+                            <li>
+                                {skill}
+                            </li>
+                        ))}
+                    </div>
                     <p>{description}</p>
                 </div>
                 <RoundedRectangle width="100%" height="100%" color={color2} borderRadius="10px"/>

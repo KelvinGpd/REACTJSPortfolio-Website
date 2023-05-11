@@ -23,7 +23,7 @@ const Projects = () => {
                     description={project.description}
                     image={project.image}
                     link={project.link}
-                    parity={project.parity}
+                    skills={project.skills}
                   />
                 </div>
             ))}
