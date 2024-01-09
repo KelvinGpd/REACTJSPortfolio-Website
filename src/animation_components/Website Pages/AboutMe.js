@@ -8,12 +8,12 @@ const AboutMe = () => {
             </div>
             <div className="AboutMeText">
                 <h3>Hi! Im Kelvin Chen, 20 years old <br/>
-                    Passionate Software and Web developper from Montreal. <br/> 
+                    Passionate Software and Web developer from Montreal. <br/> 
                     I designed and built this website myself
                 </h3>
                 <p>
                     Currently enrolled at University of Montreal in COOP computer science,<br/>
-                    I am in my third semester of studies, taking on many summer classes.
+                    I am in my second year of studies.
                 </p>
 
                 <p>

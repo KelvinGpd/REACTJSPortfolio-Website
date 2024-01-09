@@ -148,7 +148,6 @@ a, a:visited {
 /*Sidebar button*/
 .buttonContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
   position: relative;
   width: 85%;
@@ -165,6 +164,7 @@ a, a:visited {
   position: absolute;
   margin: 0;
   pointer-events: none;
+  left: 50px;
 }
 
 .buttonRect {

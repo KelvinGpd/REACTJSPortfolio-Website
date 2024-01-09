@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import FullView from './website_Layout/FullView';
 
 function App() {

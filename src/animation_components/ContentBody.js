@@ -2,6 +2,7 @@ import Rectangle from "./basic shapes/Rectangle";
 import Projects from "./Website Pages/Projects";
 import Skills from "./Website Pages/Skills";
 import AboutMe from "./Website Pages/AboutMe";
+import WorkExperience from "./Website Pages/WorkExperience";
 
 const ContentBody = ({activeButton}) => {
 
@@ -14,6 +15,8 @@ const ContentBody = ({activeButton}) => {
             return <Skills/>
         case 'About me':
             return <AboutMe/>
+        case 'Work experience':
+            return <WorkExperience/> 
         default:
             return null;
     }

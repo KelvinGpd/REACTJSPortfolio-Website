@@ -2,13 +2,36 @@ import React from "react";
 import Rectangle from "./basic shapes/Rectangle";
 import SidebarButton from "./SidebarButton";
 import { useState } from "react";
+import { Edit } from "@mui/icons-material";
+
+import AddReactionIcon from '@mui/icons-material/AddReaction';
+import TerminalIcon from '@mui/icons-material/Terminal';
+import EqualizerIcon from '@mui/icons-material/Equalizer';
+import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 
 const Sidebar = ({sendActiveToParent}) =>{
     
     const [buttons, setButtons] = useState ([
-        { text: "Projects", svgIcon: "2", color1: "#D3BBAF", color2: "#fae7e0", switchColor: "white", currentActive: false },
-        { text: "Skills", svgIcon: "3", color1: "#D3BBAF", color2: "#fae7e0", switchColor: "white",  currentActive: false },
-        { text: "About me", svgIcon: "1", color1: "#D3BBAF", color2: "#fae7e0", switchColor: "white",  currentActive: false }
+        { 
+            text: "Projects", 
+            svgIcon: <TerminalIcon color="#D3BBAF"> <Edit/> </TerminalIcon>,
+            currentActive: false 
+        },
+        { 
+            text: "Skills", 
+            svgIcon: <EqualizerIcon color="#D3BBAF"> <Edit/> </EqualizerIcon>, 
+            currentActive: false 
+        },
+        { 
+            text: "About me", 
+            svgIcon: <AddReactionIcon color="#D3BBAF"> <Edit/> </AddReactionIcon>, 
+            currentActive: false 
+        },
+        { 
+            text: "Work experience", 
+            svgIcon: <WorkHistoryIcon color="#D3BBAF"> <Edit/> </WorkHistoryIcon>, 
+            currentActive: false 
+        }
     ])
 
     const handleButtonClick = (key) => {
@@ -30,14 +53,11 @@ const Sidebar = ({sendActiveToParent}) =>{
                     <div className="toggleOptions">
                         {buttons.map((button) => (
                             <SidebarButton
-                            key={button.text}
-                            text={button.text}
-                            svgIcon={button.svgIcon}
-                            color1={button.color1}
-                            color2={button.color2}
-                            switchColor={button.switchColor}
-                            currentActive={button.currentActive} 
-                            onClick={() => handleButtonClick(button.text)}
+                                key={button.text}
+                                text={button.text}
+                                svgIcon={button.svgIcon}                                
+                                currentActive={button.currentActive} 
+                                onClick={() => handleButtonClick(button.text)}
                             />
                         ))}
                     </div>
