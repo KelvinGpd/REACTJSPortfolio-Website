@@ -1,8 +1,7 @@
 import React from "react";
 import BurgerMenu from "../animation_components/BurgerMenu";
-import Rectangle from "../animation_components/basic shapes/Rectangle";
+import Rectangle from "../animation_components/global_components/Rectangle";
 import WebsiteContent from "./WebsiteContent";
-
 
 const FullView = () => {
 
@@ -19,4 +18,4 @@ const FullView = () => {
     );
 };
 
-export default FullView
+export default FullView;

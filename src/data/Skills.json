@@ -1,0 +1,92 @@
+
+
+[
+
+    {
+        "name": "JAVA",
+        "image": "./assets/javaIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Backend"
+    },
+    {
+        "name": "PYTHON",
+        "image": "./assets/pythonIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Backend"
+    },
+    {
+        "name": "SQL",
+        "image": "./assets/sqlIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Backend"
+    },
+
+    {
+        "name": "REACT",
+        "image": "./assets/reactIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+    {
+        "name": "JAVASCRIPT",
+        "image": "./assets/jsIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+    {
+        "name": "HTML",
+        "image": "./assets/htmlIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+    {
+        "name": "CSS",
+        "image": "./assets/cssIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Frontend"
+    },
+
+    {
+        "name": "GIT/GITHUB",
+        "image": "./assets/gitIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "BASH SCRIPTING",
+        "image": "./assets/bashIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "AWS",
+        "image": "./assets/awsIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "Assembly",
+        "image": "./assets/assemblyIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    },
+    {
+        "name": "DESIGN",
+        "image": "./assets/designIco.png",
+        "color": "white",
+        "shadowCol": "#D3BBAF",
+        "category": "Other"
+    }
+  ]
+  
