@@ -7,7 +7,6 @@ import WorkExperiencePage from "../animation_components/Website_Pages/WorkExperi
 const ContentBody = ({activeButton}) => {
 
   const setActivePage = () => {
-    console.log(activeButton);
     switch(activeButton) {
         case 'Projects':
             return <ProjectsPage/>
