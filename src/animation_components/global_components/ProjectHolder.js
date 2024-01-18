@@ -14,7 +14,7 @@ const ProjectHolder = ({color1, color2, title, description, image, link, skills}
 
             <div className="bigContainer">
                 <div className="bigContainerContent">
-                    <h2>{title}</h2>
+                    <h2 className="project-holder-title">{title}</h2>
                     <div className="projectSkills">
                         {skills.map((skill)=> (
                             <li>
@@ -22,7 +22,7 @@ const ProjectHolder = ({color1, color2, title, description, image, link, skills}
                             </li>
                         ))}
                     </div>
-                    <p>{description}</p>
+                    <p className="project-holder-description">{description}</p>
                 </div>
                 <RoundedRectangle width="100%" height="100%" color={color2} borderRadius="10px"/>
             </div>

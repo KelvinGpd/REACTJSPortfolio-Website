@@ -39,10 +39,10 @@
       "color1": "#D3BBAF",
       "color2": "white",
       "title": "Portfolio Website",
-      "description": "You're Looking at it!",
+      "description": "This portfolio website is built to be maintainable. For all pages, it is easy to add a new object in the respective Json data file. The code will take care of the rest, accomodating display and css for the new element. Check out the repository!",
       "image": "./assets/portfolio.png",
       "link" : "https://github.com/KelvinGpd/REACTJSPortfolio-Website",
-      "skills": ["REACT", "Js","Css", "Json"]
+      "skills": ["REACT.JS/Css", "Json", "Figma"]
     }
 ]
   

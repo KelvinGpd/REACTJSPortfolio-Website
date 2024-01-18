@@ -2,8 +2,8 @@ import React from "react";
 import Rectangle from "../global_components/Rectangle";
 import SidebarButton from "../global_components/SidebarButton";
 import { useState } from "react";
-import { Edit } from "@mui/icons-material";
 
+import { Edit } from "@mui/icons-material";
 import AddReactionIcon from '@mui/icons-material/AddReaction';
 import TerminalIcon from '@mui/icons-material/Terminal';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
@@ -13,6 +13,11 @@ const Sidebar = ({sendActiveToParent}) =>{
     
     const [buttons, setButtons] = useState ([
         { 
+            text: "Work experience", 
+            svgIcon: <WorkHistoryIcon color="#D3BBAF"> <Edit/> </WorkHistoryIcon>, 
+            currentActive: false 
+        },
+        { 
             text: "Projects", 
             svgIcon: <TerminalIcon color="#D3BBAF"> <Edit/> </TerminalIcon>,
             currentActive: false 
@@ -20,11 +25,6 @@ const Sidebar = ({sendActiveToParent}) =>{
         { 
             text: "Skills", 
             svgIcon: <EqualizerIcon color="#D3BBAF"> <Edit/> </EqualizerIcon>, 
-            currentActive: false 
-        },
-        { 
-            text: "Work experience", 
-            svgIcon: <WorkHistoryIcon color="#D3BBAF"> <Edit/> </WorkHistoryIcon>, 
             currentActive: false 
         },
         { 

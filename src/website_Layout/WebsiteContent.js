@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import ContentBody from "./ContentBody";
-import Sidebar from "../animation_components/Website_Pages/Sidebar";
+import Sidebar from "../animation_components/Website_Pages/Sidebar.jsx";
 import Typewriter from "../animation_components/Typewriter";
 
 const WebsiteContent = () => {

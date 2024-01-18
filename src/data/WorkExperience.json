@@ -4,8 +4,28 @@
         "icon" : "./assets/goto-logo.svg",
         "title" : "Intern",
         "duration" : "08/2023 - 12/2023",
-        "description" : "As an Intern at GoTo, I worked on the grasshopper desktop application by being a big part in implementing new features and in helping re-designing the application.",
-        "skills" : ["React.js with Redux library","Api calls","html, css & scss","Devops tools (jira, teamCity, confluence...)"],
-        "media" : ["goto-3.mp4","goto-4.mp4"]
+        "description" : "As an Intern at GoTo, I worked on the Grasshopper desktop application by being a big part in implementing the new contacts feature and the application re-design.",
+        "media" : [
+            {
+                "path" :"./assets/goto-1.png",
+                "alt" : "Contacts-Page for Grasshopper application",
+                "description" : "A screenshot of the UI implementation for contacts feature of grasshopper desktop application."
+            },
+            {
+                "path" :"./assets/goto-3.mp4",
+                "alt" : "Demonstration of Contacts Feature",
+                "description" : "An example of the contacts feature. Adding, editing, interactions with a contact object."
+            },
+            {
+                "path" :"./assets/goto-2.png",
+                "alt" : "Partial Redesign of Grasshopper application",
+                "description" : "A screenshot of the partial redesign of grasshopper desktop application."
+            },
+            {
+                "path" :"./assets/goto-4.mp4",
+                "alt" : "Demonstration of Partial Redesign",
+                "description" : "A demonstration of the new design with additional features."
+            }    
+        ]
     }
 ]

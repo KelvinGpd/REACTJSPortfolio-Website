@@ -14,7 +14,7 @@ const SidebarButton = ({text, svgIcon, currentActive, onClick}) => {
             <div className="buttonIcon" style={currentActive? { color: "#D3BBAF" } : { color: "#fae7e0" }}>
                 {svgIcon}
             </div>
-            <p className="buttonText">{text}</p>
+            <div className="buttonText">{text}</div>
             <RoundedRectangle className="buttonRect" width="100%" height="100%" borderRadius="4px" 
                 color = {currentActive ? "#fae7e0" : "#D3BBAF"}
             />

@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Inter-Thin';
+  src: URL('../fonts/Inter-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: URL('../fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: URL('../fonts/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Semi-Bold';
+  src: URL('../fonts/Inter-SemiBold.ttf') format('truetype');
+}
+
+
 body {
   overflow: hidden;
   margin: 0;
@@ -154,6 +175,8 @@ a, a:visited {
   height: 7%;
   padding-top: 5%;
   pointer-events: none;
+  cursor: pointer;
+  text-align: start;
 }
 
 .buttonContainer > * {
@@ -165,6 +188,8 @@ a, a:visited {
   margin: 0;
   pointer-events: none;
   left: 50px;
+
+  font-family: "Inter-Regular";
 }
 
 .buttonRect {
@@ -284,6 +309,15 @@ a, a:visited {
   align-items: baseline;
   align-content: baseline;
   justify-content: baseline;
+  font-family: "Inter-Regular";
+}
+
+.project-holder-title {
+  font-family: "Inter-Thin";
+}
+
+.project-holder-description {
+  font-family: "Inter-Regular";
 }
 
 
@@ -311,6 +345,7 @@ a, a:visited {
 
 .AboutMeText {
   text-justify: auto;
+  font-family: "Inter-Regular";
 }
 
 .profilePicture {
@@ -373,6 +408,7 @@ a, a:visited {
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   margin-right: 5%;
+  font-family: "Inter-Thin";
 }
 
 .skillImg {
@@ -392,6 +428,7 @@ a, a:visited {
   height: 100%;
   width: 100%;
   z-index: 1;
+  font-family: "Inter-Semi-Bold";
 }
 
 .singleSkillBackground {
@@ -452,3 +489,209 @@ a, a:visited {
   margin-top: 5%;
   font-size: 50%;
 }
+
+/*Work experience*/
+
+.work-experience-page {
+  box-sizing: border-box;
+  padding: 5%;
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  gap:20px;
+}
+
+.work-experience-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 250px;
+}
+
+.work-experience-content{
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+  background-color: #FFFDFC;
+  text-align: start;
+  cursor: pointer;
+  height: 100%;
+}
+
+.work-experience-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15%;
+  padding-top: 0;
+}
+
+.work-experience-title {
+  font-family: "Inter-Thin";
+  font-size: 40px;
+}
+
+.work-experience-duration {
+  font-family: "Inter-Regular";
+  font-size: 40px;
+}
+
+.box-shadow {
+  overflow: hidden;
+  background: rgba(211, 187, 175, 0.50);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 5px;
+  left: 5px;
+}
+
+
+/*Display page for selected experience*/
+.selected-experience-display-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.selected-experience-top-container {
+  display: flex;
+  position: relative; 
+  width: 100%; 
+  height: 30%;
+}
+
+.selected-experience-top {
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  background-color: #FFFDFC;
+  width: 100%;
+}
+
+.selected-experience-top-text{
+  overflow: hidden;
+  padding: 2%;
+}
+
+.close-icon-container{
+  cursor: pointer;
+  height: fit-content;
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+
+.selected-experience-header {
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.50);
+  font-family: "Inter-Thin";
+  font-size: 40px;
+
+}
+
+.selected-experience-description {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  text-align: start;
+  gap: 10px;
+}
+
+.selected-experience-bottom {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  gap: 10px;
+}
+
+.selected-experience-media-picker-container {
+  width: 20%;
+  display: flex;
+  position: relative;
+}
+
+.selected-experience-media-display-container {
+  width: 80%;
+  display: flex;
+  position: relative;
+}
+
+.selected-experience-media-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5%;
+  background-color: #FFFDFC;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.media-thumbnail-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.media-thumbnail-display:hover {
+  cursor: pointer;
+}
+
+.media-thumbnail-alt {
+  font-family: "Inter-Medium";
+  font-size: 15px;
+}
+
+.media-holder {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  align-self: center;
+  height: fit-content;
+  width: 100%;
+  height: 100%;
+}
+
+.video-holder {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.selected-experience-media-display {
+  padding: 5%;
+  background-color: #FFFDFC;
+  width: 100%;
+  z-index: 1;
+}
+
+.selected-experience-media-container {
+  display: flex;
+  gap: 15px;
+  height: 100%;
+}
+
+.selected-experience-description-container {
+  background: rgba(211, 187, 175, 0.75);
+  font-family: "Inter-Regular";
+  font-size: 20px;
+  text-align: start;
+  padding: 20px;
+  width: 40%;
+}
+
+.play-icon-container {
+  position: absolute;
+  width: 100%;
+  align-self: center;
+}
+
