@@ -2,8 +2,8 @@
   {
     "color1": "#D3BBAF",
     "color2": "white",
-    "title": "GreenerNeighborhood",
-    "description": "GreenerNeighborhood is a website constructed for ConuHacks 2023. Fullstack with flask backend and Firebase for authentification. Visualizes pollution datasets for map of montreal.",
+    "title": "GreeNeighborhood",
+    "description": "GreeNeighborhood is a website constructed for ConuHacks 2023. Fullstack with flask backend and Firebase for authentification. Visualizes pollution datasets for map of montreal.",
     "image": "./assets/GreeNeighborhood.png",
     "link" : "https://greeneighborhood.netlify.app/",
     "skills" : ["React.js","Flask","Firebase"]
