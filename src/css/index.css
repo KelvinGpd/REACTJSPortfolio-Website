@@ -187,9 +187,10 @@ a, a:visited {
   position: absolute;
   margin: 0;
   pointer-events: none;
-  left: 50px;
+  left: 60px;
 
   font-family: "Inter-Regular";
+  font-size: 125%;
 }
 
 .buttonRect {
@@ -220,6 +221,8 @@ a, a:visited {
   position: absolute;
   width: 100%;
   height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .initial {
@@ -234,37 +237,26 @@ a, a:visited {
 
 /*Project Page*/
 .Projects {
-  box-sizing: border-box;
   padding: 5%;
   display: flex;
-  position: absolute;
-  height: 100%;
   width: 100%;
-  overflow: hidden;
 }
 
 .projectBlock {
   width: 100%;
-  height: 100%;
   margin-right: 1%;
 }
 
 .backgroundContainer {
   width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
 /*Display for project Image*/
 .smallContainer {
-  overflow: hidden;
-  display: flex;
-  width: 100%;
   aspect-ratio: 4/3;
   position: relative;
   margin-bottom: 4%;
-  justify-content: center;
-  align-content: center;
 }
 
 .smallContainerContent {
@@ -283,23 +275,12 @@ a, a:visited {
 }
 
 .bigContainer {
-  width: 100%;
-  height: 100%;
   overflow: hidden;
   display: flex;
-  position: relative;
-  margin-bottom: 4%;
-  justify-content: center;
-  align-content: center;
-}
-
-.bigContainerContent{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  box-sizing: border-box;
+  flex-direction: column;
   padding: 5%;
-  object-fit: contain;
+  border-radius: 10px; 
+  background-color: white;
 }
 
 .projectSkills {
@@ -310,14 +291,18 @@ a, a:visited {
   align-content: baseline;
   justify-content: baseline;
   font-family: "Inter-Regular";
+  font-size: 125%;
 }
 
 .project-holder-title {
   font-family: "Inter-Thin";
+  font-size: 125%;
+
 }
 
 .project-holder-description {
   font-family: "Inter-Regular";
+  font-size: 125%;
 }
 
 
@@ -346,6 +331,7 @@ a, a:visited {
 .AboutMeText {
   text-justify: auto;
   font-family: "Inter-Regular";
+  font-size: 125%;
 }
 
 .profilePicture {
@@ -409,6 +395,7 @@ a, a:visited {
   transform: rotate(-180deg);
   margin-right: 5%;
   font-family: "Inter-Thin";
+  font-size: 125%;
 }
 
 .skillImg {
@@ -429,6 +416,7 @@ a, a:visited {
   width: 100%;
   z-index: 1;
   font-family: "Inter-Semi-Bold";
+  font-size: 125%;
 }
 
 .singleSkillBackground {
@@ -488,6 +476,7 @@ a, a:visited {
   z-index: 5;
   margin-top: 5%;
   font-size: 50%;
+  font-family: "Inter-Regular";
 }
 
 /*Work experience*/
@@ -507,7 +496,7 @@ a, a:visited {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 250px;
+  width: 350px;
 }
 
 .work-experience-content{
@@ -530,12 +519,12 @@ a, a:visited {
 
 .work-experience-title {
   font-family: "Inter-Thin";
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .work-experience-duration {
   font-family: "Inter-Regular";
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .box-shadow {
@@ -591,7 +580,7 @@ a, a:visited {
 .selected-experience-header {
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.50);
   font-family: "Inter-Thin";
-  font-size: 40px;
+  font-size: 55px;
 
 }
 
@@ -599,7 +588,7 @@ a, a:visited {
   display: flex;
   flex-direction: column;
   font-family: "Inter-Regular";
-  font-size: 18px;
+  font-size: 22px;
   text-align: start;
   gap: 10px;
 }
@@ -645,7 +634,7 @@ a, a:visited {
 
 .media-thumbnail-alt {
   font-family: "Inter-Medium";
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .media-holder {
@@ -683,7 +672,7 @@ a, a:visited {
 .selected-experience-description-container {
   background: rgba(211, 187, 175, 0.75);
   font-family: "Inter-Regular";
-  font-size: 20px;
+  font-size: 24px;
   text-align: start;
   padding: 20px;
   width: 40%;

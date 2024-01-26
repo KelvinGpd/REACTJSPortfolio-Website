@@ -7,7 +7,7 @@ function Typewriter() {
       <div className='TypewriterContainer'>
         <TypeWriterEffect
             textStyle={{
-              fontFamily: 'Red Hat Display',
+              fontFamily: 'Inter-Regular',
               color: 'black',
               fontWeight: 300,
               fontSize: '1.5em',

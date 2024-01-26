@@ -1,48 +1,57 @@
 [
-    {
-      "color1": "#D3BBAF",
-      "color2": "white",
-      "title": "FaitFrette.tech",
-      "description": "FaitFrette.tech is a website constructed for Polyhacks 2022. It was done using Open Meteo Api, pulling in real time data of current and future weather conditions all over Canada and using them to update a custom interactive map.",
-      "image": "./assets/FaitFrette.png",
-      "link" : "https://faitfrette.tech/",
-      "skills" : ["React","Js","Css"]
-    },
-    {
-      "color1": "#D3BBAF",
-      "color2": "white",
-      "title": "Auto Roto",
-      "description": "Made for my personal BI Project, auto roto is an automatic segmentation tool that would enable its user to import any image and make a few selections in order to segment their desired object from the background.",
-      "image": "./assets/AutoRoto.png",
-      "link" : "https://www.youtube.com/watch?v=dcC4Hc6ATsE",
-      "skills" : ["Python", "Open CV"]
-    },
-    {
-      "color1": "#D3BBAF",
-      "color2": "white",
-      "title": "Class register System",
-      "description": "This project is a Mock-up of an University's class registering system, simulating the user experience and the server response of any would be student looking to register to classes.",
-      "image": "./assets/Inscription.png",
-      "link" : "https://youtu.be/i5wSvuJooSw",
-      "skills": ["Java", "JavaFx"]
-    },
-    {
-      "color1": "#D3BBAF",
-      "color2": "white",
-      "title": "VR bow Simulator",
-      "description": "VR bow simulator is a virtual reality experience simulating the firing of a bow and arrow. You can also move around using the handheld controllers and explore your surroundings.",
-      "image": "./assets/arrow.png",
-      "link" : "https://www.youtube.com/watch?v=QqziExvHmoQ",
-      "skills": ["C#", "Unity","Blender"]
-    },
-    {
-      "color1": "#D3BBAF",
-      "color2": "white",
-      "title": "Portfolio Website",
-      "description": "This portfolio website is built to be maintainable. For all pages, it is easy to add a new object in the respective Json data file. The code will take care of the rest, accomodating display and css for the new element. Check out the repository!",
-      "image": "./assets/portfolio.png",
-      "link" : "https://github.com/KelvinGpd/REACTJSPortfolio-Website",
-      "skills": ["REACT.JS/Css", "Json", "Figma"]
-    }
+  {
+    "color1": "#D3BBAF",
+    "color2": "white",
+    "title": "GreenerNeighborhood",
+    "description": "GreenerNeighborhood is a website constructed for ConuHacks 2023. Fullstack with flask backend and Firebase for authentification. Visualizes pollution datasets for map of montreal.",
+    "image": "./assets/GreeNeighborhood.png",
+    "link" : "https://greeneighborhood.netlify.app/",
+    "skills" : ["React.js","Flask","Firebase"]
+  },
+  {
+    "color1": "#D3BBAF",
+    "color2": "white",
+    "title": "FaitFrette.tech",
+    "description": "FaitFrette.tech is a website constructed for Polyhacks 2022. It was done using Open Meteo Api, pulling in real time data of current and future weather conditions all over Canada and using them to update a custom interactive map.",
+    "image": "./assets/FaitFrette.png",
+    "link" : "https://faitfrette.tech/",
+    "skills" : ["React","Js","Css"]
+  },
+  {
+    "color1": "#D3BBAF",
+    "color2": "white",
+    "title": "Auto Roto",
+    "description": "Made for my personal BI Project, auto roto is an automatic segmentation tool that would enable its user to import any image and make a few selections in order to segment their desired object from the background.",
+    "image": "./assets/AutoRoto.png",
+    "link" : "https://www.youtube.com/watch?v=dcC4Hc6ATsE",
+    "skills" : ["Python", "Open CV"]
+  },
+  {
+    "color1": "#D3BBAF",
+    "color2": "white",
+    "title": "Class register System",
+    "description": "This project is a Mock-up of an University's class registering system, simulating the user experience and the server response of any would be student looking to register to classes.",
+    "image": "./assets/Inscription.png",
+    "link" : "https://youtu.be/i5wSvuJooSw",
+    "skills": ["Java", "JavaFx"]
+  },
+  {
+    "color1": "#D3BBAF",
+    "color2": "white",
+    "title": "VR bow Simulator",
+    "description": "VR bow simulator is a virtual reality experience simulating the firing of a bow and arrow. You can also move around using the handheld controllers and explore your surroundings.",
+    "image": "./assets/arrow.png",
+    "link" : "https://www.youtube.com/watch?v=QqziExvHmoQ",
+    "skills": ["C#", "Unity","Blender"]
+  },
+  {
+    "color1": "#D3BBAF",
+    "color2": "white",
+    "title": "Portfolio Website",
+    "description": "This portfolio website is built to be maintainable. For all pages, it is easy to add a new object in the respective Json data file. The code will take care of the rest, accomodating display and css for the new element. Check out the repository!",
+    "image": "./assets/portfolio.png",
+    "link" : "https://github.com/KelvinGpd/REACTJSPortfolio-Website",
+    "skills": ["REACT.JS/Css", "Json", "Figma"]
+  }
 ]
   

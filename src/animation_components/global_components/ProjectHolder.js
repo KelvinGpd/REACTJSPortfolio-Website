@@ -13,18 +13,15 @@ const ProjectHolder = ({color1, color2, title, description, image, link, skills}
             </div>
 
             <div className="bigContainer">
-                <div className="bigContainerContent">
-                    <h2 className="project-holder-title">{title}</h2>
-                    <div className="projectSkills">
-                        {skills.map((skill)=> (
-                            <li>
-                                {skill}
-                            </li>
-                        ))}
-                    </div>
-                    <p className="project-holder-description">{description}</p>
+                <h2 className="project-holder-title">{title}</h2>
+                <div className="projectSkills">
+                    {skills.map((skill)=> (
+                        <li>
+                            {skill}
+                        </li>
+                    ))}
                 </div>
-                <RoundedRectangle width="100%" height="100%" color={color2} borderRadius="10px"/>
+                <p className="project-holder-description">{description}</p>
             </div>
         </div>
     );
