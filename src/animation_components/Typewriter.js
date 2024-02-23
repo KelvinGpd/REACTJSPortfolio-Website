@@ -16,7 +16,7 @@ function Typewriter() {
             cursorColor="black"
             multiText={[
               'Im Kelvin Chen, a Software developper.',
-              'Welcome to my Website!'
+              'TESTING AUTODEPLOY!'
             ]}
             multiTextDelay={1200}
             typeSpeed={60}
