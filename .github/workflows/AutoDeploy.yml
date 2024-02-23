@@ -44,5 +44,4 @@ jobs:
           aws-region: us-east-2
 
       - name: Deploy-to-bucket
-        run:  |
-        aws s3 sync ./downloaded_build s3://kelvgpd.com --delete --region us-east-2
+        run: aws s3 sync ./downloaded_build s3://kelvgpd.com --delete
